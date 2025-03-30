@@ -11,7 +11,4 @@ This project was developed during my PhD to explore the potential of gait-based 
 - Matplotlib, Seaborn (for visualizations)
 
 ## 📁 Project Structure
-DeepGait/
-├── data/
-├── notebooks/
-└── README.md     
+DeepGait/ ├── data/ ├── notebooks/ └── README.md 
