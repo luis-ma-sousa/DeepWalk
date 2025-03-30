@@ -10,6 +10,7 @@ This project was developed during my PhD to explore the potential of gait-based 
 - pandas, NumPy, scikit-learn, TensorFlow
 - Matplotlib, Seaborn (for visualizations)
 
+## 📁 Project Structure
 ```
 DeepGait/
 ├── data/               
