@@ -10,4 +10,9 @@ This project was developed during my PhD to explore the potential of gait-based 
 - pandas, NumPy, scikit-learn, TensorFlow
 - Matplotlib, Seaborn (for visualizations)
 
-<pre> 📁 Project Structure ``` DeepGait/ ├── data/ # Preprocessed gait tracking data ├── notebooks/ # Notebooks for EDA, feature engineering, model training ├── models/ # (Optional) Saved models └── README.md # Project overview ``` </pre>
+DeepGait/
+├── data/               # Preprocessed gait tracking data
+├── notebooks/          # Jupyter notebooks for analysis and modeling
+├── models/             # (Optional) Saved models (e.g., .h5, .pkl)
+└── README.md           # Project overview and instructions
+
