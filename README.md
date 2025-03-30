@@ -12,9 +12,8 @@ This project was developed during my PhD to explore the potential of gait-based 
 
 ```
 DeepGait/
-├── data/               # Preprocessed gait tracking data
-├── notebooks/          # Jupyter notebooks for analysis and modeling
-├── models/             # (Optional) Saved models (e.g., .h5, .pkl)
-└── README.md           # Project overview and instructions
+├── data/               
+├── notebooks/          
+└── README.md          
 ```
 
