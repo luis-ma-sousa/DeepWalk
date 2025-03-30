@@ -1,14 +1,25 @@
 # DeepGait – ML Classifier for Parkinson’s Motor Deficits
 
+
+
+https://github.com/user-attachments/assets/282e9eb1-e725-449f-a9cc-db1ecba97a5c
+
+
+
 ## 🐾 About the Data: MouseWalker Gait Tracking
 The gait data used in this project was collected using MouseWalker, an open-source hardware and software system developed by César Mendes and colleagues at Columbia University (Mendes et al., 2015).
 
 MouseWalker is a MATLAB-based tool that captures and analyzes high-resolution spatiotemporal gait parameters in freely walking rodents using a custom frustrated total internal reflection (fTIR) setup and high-speed video. The software tracks individual paw positions and body features frame-by-frame to extract over 70 locomotor metrics, including:
-
 - Stance/swing cycles
 - Inter-limb coordination
 - Footprint clustering and gait phase
 - Body and tail kinematics
+
+<img width="395" alt="Screenshot 2025-03-30 at 17 41 20" src="https://github.com/user-attachments/assets/08a3507d-51bd-4897-a2fa-6588419e6ac0" />
+
+from (Mendes et al., 2015).
+
+
 
 📥 The raw data used in this project are output files from MouseWalker tracking, later processed for machine learning classification tasks.
 
