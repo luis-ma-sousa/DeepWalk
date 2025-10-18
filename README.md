@@ -47,6 +47,7 @@ The project implements a modular, end-to-end workflow composed of three main sta
    - Confusion matrices and cross-validation metrics (accuracy, F1-score) for model evaluation.  
 ---
 
+<img width="2481" height="3508" alt="scheme 3" src="https://github.com/user-attachments/assets/4b0321e0-7ba0-4fff-abf3-546cf4dccefd" />
 
 ---
 ## 🧩 Key Findings
