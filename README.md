@@ -45,6 +45,21 @@ The project implements a modular, end-to-end workflow composed of three main sta
    - Automated hyperparameter tuning, early stopping, and learning-rate scheduling.  
    - Model interpretability through **permutation-based feature importance**.  
    - Confusion matrices and cross-validation metrics (accuracy, F1-score) for model evaluation.  
+---
+
+## 🧩 Key Findings (in simple terms)
+
+1. **Gait can reveal brain changes before symptoms appear.**  
+   Subtle differences in how mice walk can signal early neural or metabolic alterations long before visible motor deficits emerge.
+
+2. **Machine learning uncovered a new molecular player in motor control.**  
+   By analysing locomotor patterns with advanced models, this work identified a previously unrecognised protein as a key regulator of movement and a potential contributor to Parkinson’s disease mechanisms.
+
+3. **The models reached high classification accuracy.**  
+   Using behavioural data alone, the best neural network achieved approximately **95% accuracy** in distinguishing experimental conditions, demonstrating that gait-based features are highly predictive of underlying biological states.
+
+4. **The workflow bridges neuroscience and AI.**  
+   DeepWalk shows how computational tools can transform complex behavioural datasets into biologically meaningful insights, providing a reproducible framework for studying neurodegenerative disorders.
 
 ---
 ## 🔒 Data and notebooks Availability
