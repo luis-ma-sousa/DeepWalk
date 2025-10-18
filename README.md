@@ -1,4 +1,4 @@
-# DeepGait – ML Classifier for Parkinson’s Motor Deficits
+# DeepWalk – ML Classifier for Parkinson’s Motor Deficits
 
 
 
@@ -26,37 +26,62 @@ From (Mendes et al., 2015).
 ## 🧠 Project Overview
 This project was developed during my PhD under the supervision of [Prof. Hugo Vicente Miranda](https://www.linkedin.com/in/hugo-vicente-miranda-3b5b661/) to explore the potential of gait-based behavioral markers for neurodegenerative disease classification. Using extracted locomotor data, I trained and evaluated multiple classification models, achieving 95% accuracy with a neural network.
 
-## 🔧 Tools & Technologies
-- Python (Jupyter Notebooks)
-- pandas, NumPy, scikit-learn, TensorFlow
-- Matplotlib, Seaborn (for visualizations)
+The project implements a modular, end-to-end workflow composed of three main stages:
 
-## 📁 Project Structure
-```
-DeepGait/
-├── data/               
-├── notebooks/          
-└── README.md          
-```
+1. **Data Pre-processing**  
+   - Ingests raw MouseWalker outputs.  
+   - Identifies and removes statistical outliers with robust methods (FDR-controlled).  
+   - Performs median imputation and covariate correction (speed, body weight, body length).  
+   - Normalises locomotor features to generate a clean, standardised dataset for further analysis.  
 
+2. **Statistical Analysis**  
+   - Mixed-effects modelling (`Y ~ Age × Genotype × Diet + (1|AnimalID)`) to detect main effects and interactions.  
+   - ANOVA fallback for variables not suitable for mixed modelling.  
+   - Log₂ fold-change visualisations, PCA analysis, and feature-level interpretation.  
 
-## 📊 What the Notebook Does
-- **Imports and explores** gait data from preprocessed MouseWalker CSV files  
-- **Performs data cleaning** and feature selection (including variance and correlation filtering)   
-- **Trains multiple ML classifiers** (Neural net, Random Forest)  
-- **Compares model performance** across accuracy, F1 score, and confusion matrices  
-- **Visualizes results** using Seaborn and Matplotlib (heatmaps, barplots, accuracy metrics)
+3. **Machine Learning Classification**  
+   - Dimensionality reduction via PCA and variance filtering.  
+   - Multi-class classification using **Residual Neural Networks** and **Random Forests**.  
+   - Automated hyperparameter tuning, early stopping, and learning-rate scheduling.  
+   - Model interpretability through **permutation-based feature importance**.  
+   - Confusion matrices and cross-validation metrics (accuracy, F1-score) for model evaluation.  
 
-## 🚀 How to Run
+---
+## 🔒 Data and notebooks Availability
 
-1. Clone this repo or download the notebook
-2. Place the processed CSV data in the `/data` directory
-3. Open `notebooks/DeepWalk_v01.ipynb` in Jupyter or Colab
-4. Run all cells to reproduce preprocessing, training, and evaluation
+Due to the unpublished nature of this research, raw and processed data, as well as the original notebooks, are not included in this repository.  
+
+➡️ **Access can be provided upon reasonable request.**
+
+---
+
+## 🧰 Tools & Technologies
+
+- **Languages:** Python 3.9  
+- **Libraries:** pandas, NumPy, scikit-learn, TensorFlow/Keras  
+- **Visualisation:** Matplotlib, Seaborn  
+- **Statistics:** statsmodels
+- **Environment:** Jupyter Notebooks  
+
+---
+
+## 📁 Repository Structure
+
+DeepWalk/
+├── data/                   # Processed MouseWalker data
+├── notebooks/              # Jupyter notebooks (preprocessing, stats, ML)
+│   ├── DeepWalker - Data Pre-processing pipeline.ipynb
+│   ├── DeepWalker - Statistical analysis pipeline.ipynb
+│   └── DeepWalker - Machine Learning analysis pipeline.ipynb
+└── README.md
 
 ## 📌 Status
 
 Finalized for demo and portfolio use. Future updates may include a live dashboard and additional behavioral classifiers.
+
+> 🧩 **Future release:**  
+> Once the study is published, all source code, notebooks, and raw data will be made publicly available here.
+
 
 ## 🧑‍💻 Author
 Luís Sousa — [LinkedIn](https://www.linkedin.com/in/luis-ma-sousa31) | [GitHub](https://github.com/luismasousa)
