@@ -47,7 +47,9 @@ The project implements a modular, end-to-end workflow composed of three main sta
    - Confusion matrices and cross-validation metrics (accuracy, F1-score) for model evaluation.  
 ---
 
-## 🧩 Key Findings (in simple terms)
+
+---
+## 🧩 Key Findings
 
 1. **Gait can reveal brain changes before symptoms appear.**  
    Subtle differences in how mice walk can signal early neural or metabolic alterations long before visible motor deficits emerge.
