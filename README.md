@@ -42,9 +42,8 @@ DeepGait/
 
 ## 📊 What the Notebook Does
 - **Imports and explores** gait data from preprocessed MouseWalker CSV files  
-- **Performs data cleaning** and feature selection (including variance and correlation filtering)  
-- **Normalizes** data using MinMax scaling  
-- **Trains multiple ML classifiers** (MLP neural net, Random Forest, K-Nearest Neighbors, K-Means)  
+- **Performs data cleaning** and feature selection (including variance and correlation filtering)   
+- **Trains multiple ML classifiers** (Neural net, Random Forest)  
 - **Compares model performance** across accuracy, F1 score, and confusion matrices  
 - **Visualizes results** using Seaborn and Matplotlib (heatmaps, barplots, accuracy metrics)
 
