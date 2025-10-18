@@ -66,7 +66,7 @@ Due to the unpublished nature of this research, raw and processed data, as well 
 ---
 
 ## 📁 Repository Structure
-
+```
 DeepWalk/
 ├── data/                   # Processed MouseWalker data
 ├── notebooks/              # Jupyter notebooks (preprocessing, stats, ML)
@@ -74,7 +74,7 @@ DeepWalk/
 │   ├── DeepWalker - Statistical analysis pipeline.ipynb
 │   └── DeepWalker - Machine Learning analysis pipeline.ipynb
 └── README.md
-
+```
 ## 📌 Status
 
 Finalized for demo and portfolio use. Future updates may include a live dashboard and additional behavioral classifiers.
