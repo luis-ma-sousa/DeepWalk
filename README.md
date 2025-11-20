@@ -88,9 +88,9 @@ Due to the unpublished nature of this research, raw and processed data, as well 
 DeepWalk/
 ├── data/                   # Processed MouseWalker data
 ├── notebooks/              # Jupyter notebooks (preprocessing, stats, ML)
-│   ├── DeepWalker - Data Pre-processing pipeline.ipynb
-│   ├── DeepWalker - Statistical analysis pipeline.ipynb
-│   └── DeepWalker - Machine Learning analysis pipeline.ipynb
+│   ├── DeepWalk - Data Pre-processing pipeline.ipynb
+│   ├── DeepWalk - Statistical analysis pipeline.ipynb
+│   └── DeepWalk - Machine Learning analysis pipeline.ipynb
 └── README.md
 ```
 ## 📌 Status
